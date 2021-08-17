@@ -1,0 +1,21 @@
+/* inherit */
+div.inherit {
+  color: red;
+}
+#selected {
+  color: black;
+}
+div.inherit div {
+  border: 1px solid red;
+}
+
+/* priority  !important > style attribute > id > class > tag */
+li {
+  color: red;
+}
+#idsel {
+  color: blue;
+}
+.classsel {
+  color: green;
+}

@@ -9,6 +9,16 @@ https://www.w3schools.com/css/css_selectors.asp
   - [가상element선택자](#가상element선택자) : element의 일부분을 선택하고 스타일을 지정할때 사용합니다.
   - [가상속성선택자](#가상속성선택자) : 속성또는 속성값을 기반으로 요소를 선택합니다.
 
+# 상속과 우선순위
+
+- 상속 : 각엘리먼트들은 상위 엘리먼트의 속성값을 물려받습니다.
+  - 상속하는속성과 상속하지않는 속성
+  - ttps://www.w3.org/TR/CSS21/propidx.html
+- CSS적용의 우선순위
+  - style attribute> id selector > class selector > tag selector
+- !important -> 무조건적인 우선순위를 부여할수있다.
+- ` li{color:red !important;}`
+
 # 스타일파일불러오기
 
 ```html
